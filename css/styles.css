@@ -1,0 +1,209 @@
+:root {--main-bg-color : #2f303a;
+    --secondary-bg-color :#ececec;
+    --primary-text-color : #212121;
+    --secondary-text-color :#757575;
+    --color-logo : #2196f3;
+    --footer-contacts-color : rgba(255, 255, 255, 0.6);
+    --filters-color : #f5f4fa;
+    --borders-color : #eee;
+    --primary-color : #fff;
+    --secondary-color : #000;
+    --pimary-size : 14px;
+    --secondary-size : 16px;
+    --project-title : 18px;
+    --logo-size : 26px;
+    --title-size : 36px;
+    --headline-size : 44px;
+    --common-margin : 94px;
+    --font-family-primary : 'Roboto', sans-serif;
+    --font-family-logo : 'Raleway', sans-serif;}
+
+body {font-family: var(--font-family-primary);
+    color: var(--primary-text-color);}
+
+.button {cursor: pointer; font-family: inherit;}
+.list {list-style-type : none;}
+.link {text-decoration: none;}
+
+.logo {font-family: var(--font-family-logo);
+    font-weight: 700;
+    font-size: var(--logo-size);
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--secondary-color);}
+
+.blue-logo {color: var(--color-logo);}
+
+.header { box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12);}
+
+.header, .navigation, .pages {display: flex; flex-direction: row; align-items: center; justify-content: center; justify-content: space-evenly;}
+
+.job-list {margin-right: 30px;}
+
+.pages-list {margin-right: 50px;}
+
+.navigation-link {
+    font-weight: 500;
+    font-size: var(--pimary-size);
+    color: var(--primary-text-color);
+    line-height: 1.1;
+    letter-spacing: 0.02em;}
+.navigation-link:hover {color: var(--color-logo);}
+
+.header-contacts {
+    font-weight: 500;
+    font-size: var(--pimary-size);
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color);}
+.header-contacts:hover {color: var(--color-logo);}
+
+.footer {background-color: var(--main-bg-color);
+padding-top: 60px;
+padding-bottom: 60px;}
+
+.footer-address {display: flex; flex-direction: column; margin-top: 20px;}
+
+.footer-logo, .footer-address {margin-left: 215px;}
+
+.footer-logo { color: var(--primary-color);}
+
+.address {font-style: normal;
+    font-size: var(--pimary-size);
+    font-weight: 400;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--primary-color);}
+
+.footer-contacts {font-style: normal;
+    font-weight: 400;
+    font-size: var(--pimary-size);
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--footer-contacts-color);
+    padding-top: 9px;}
+
+.main-page {background-color: var(--main-bg-color); align-self: center; display: flex;
+    justify-content: space-between; flex-direction: column;}
+
+.main-title {
+    width: 696px;
+    font-weight: 900;
+    font-size: var(--headline-size);
+    padding-top: 200px;
+    margin-bottom: 30px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    align-self: center;
+    color: var(--primary-color);}
+
+.service-order {background: var(--color-logo);
+    border-radius: 4px;
+    padding: 10px 32px;
+    font-weight: 700;
+    font-size: var(--secondary-size);
+    line-height: 2;
+    color: var(--primary-color);
+    margin-bottom: 200px;
+    border-color: transparent;
+    align-self: center;}
+
+.business {background-color: var(--primary-color); margin-top: var(--common-margin);}
+
+.qualities {display: flex; flex-direction: row; align-items: center; justify-content: center;}
+
+.quality-list {display: flex; flex-direction: column; align-items: flex-start; justify-content: center; width: 270px; margin-right: 30px;}
+
+.quality-title {font-weight: 700;
+    font-size: var(--pimary-size);
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;}
+
+.quality-descr {font-size: var(--pimary-size);
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);}
+
+.job-pics {}
+
+.our-team {background-color: var(--secondary-bg-color);}
+
+.team-list, .job-pics {display: flex; flex-direction: row; align-items: center; justify-content: center;}
+
+.team-list {margin-block-start: 0;
+    margin-block-end: 0;}
+
+.job-pics {margin-bottom: var(--common-margin);}
+
+.caption {text-align: center; padding-bottom: 30px;}
+
+.caption-project {align-items: flex-start; padding-bottom: 30px; padding-left: 24px;}
+
+.container {background-color: var(--primary-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    display: flex; flex-direction: column; 
+    width: 270px;
+    margin-top: 50px;
+    margin-bottom: var(--common-margin);
+    margin-right: 30px;
+    border-radius: 4px}
+
+.project {display: flex; flex-direction: column; 
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.08);
+    width: 370px;
+    margin: 30px}
+
+.subtitle {font-weight: 700;
+    font-size: var(--title-size);
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    padding-top: 94px;
+    margin-bottom: 50px;}
+
+.name {font-weight: 500;
+    font-size: var(--secondary-size);
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;}
+
+.job {font-size: var(--secondary-size);
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+    margin-bottom: var(--common-margin);}
+
+.project-filters { display: flex; flex-direction: row; justify-content: center;}
+
+.filter {background: var(--filters-color);
+    border-radius: 4px;
+    padding: 6px 22px;
+    font-weight: 500;
+    font-size: var(--secondary-size);
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin-bottom: 200px;
+    border-color: transparent;
+    margin-right: 8px;
+    margin-top: var(--common-margin);
+    margin-bottom: 34px;}
+.filter:hover {background: var(--color-logo);
+    color: var(--primary-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);}
+
+.catalogue {display: flex; flex-direction: row; justify-content: center; width: 100%; flex-wrap: wrap; margin-bottom: var(--common-margin);}
+
+.project-name {font-weight: 700;
+    font-size: var(--project-title);
+    line-height: 2;
+    letter-spacing: 0.06em;}
+
+.project-type {font-size: var(--secondary-size);
+    line-height: 2;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);}
