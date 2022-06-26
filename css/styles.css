@@ -224,7 +224,7 @@ padding-bottom: var(--uncommon-padding);}
 
 .filter-item:not(:last-child) {margin-right: 8px;}
 
-.catalogue {display: flex; flex-direction: row; justify-content: center; width: 100%; flex-wrap: wrap; margin-bottom: var(--common-padding);}
+.catalogue {display: flex; flex-direction: row; justify-content: center; width: 100%; flex-wrap: wrap;}
 
 .project-name {font-weight: 700;
     font-size: var(--project-title);
