@@ -22,6 +22,9 @@
     --font-family-primary : 'Roboto', sans-serif;
     --font-family-logo : 'Raleway', sans-serif;}
 
+body {font-family: var(--font-family-primary);
+    color: var(--primary-text-color);}
+
 ul, ol {margin: 0; padding: 0;}
 a {display: inline-block;}
 
